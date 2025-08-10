@@ -1,0 +1,48 @@
+:root {
+    --orange: orange;
+}
+
+.world {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.zone {
+    width: 50vw;
+    height: 100vh;
+}
+
+.outside {
+    background-color: lightskyblue;
+}
+
+.inside {
+    background-color: blue;
+}
+
+.character {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 32px;
+    height: 32px;
+
+    background: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+
+    pointer-events: none;
+}
+
+.follow {
+    background-color: white;
+    z-index: 10;
+}
+
+.trapped {
+    background-color: orange;
+}
